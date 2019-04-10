@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <declare-styleable name="MyProgressBar">
+        <attr name="innerbackground" format="color" />
+        <attr name="outerbackground" format="color" />
+        <attr name="roundwidth" format="dimension" />
+        <attr name="progresstextsize" format="dimension" />
+        <attr name="progresstextcolor" format="color" />
+    </declare-styleable>
+</resources>

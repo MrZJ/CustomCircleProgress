@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <progressbar.test.com.customcircleprogress.MyProgressBar
+        android:id="@+id/progress"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:innerbackground="@color/colorPrimary"
+        app:outerbackground="@color/colorAccent"
+        app:progresstextcolor="@color/colorAccent"
+        app:progresstextsize="20sp"
+        app:roundwidth="20dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="start"
+        android:text="启动"
+        app:layout_constraintBottom_toBottomOf="parent" />
+</android.support.constraint.ConstraintLayout>
